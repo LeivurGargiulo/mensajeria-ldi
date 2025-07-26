@@ -1,0 +1,47 @@
+---
+import { Phone, Mail, Map } from "@lucide/astro";
+---
+
+<section id="contacto" class="bg-base-100 py-16 px-4">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Contactanos</h2>
+    <p class="text-lg mb-8">
+      ¿Tenés dudas o querés pedir un envío? Estamos para ayudarte:
+    </p>
+    <div class="space-y-4 text-lg flex flex-col justify-center items-center">
+      <div class="flex gap-5">
+        <Phone color="#fbc700" />
+        <p>
+          <strong>WhatsApp:</strong>
+          <a
+            href="https://wa.link/o3i0tb"
+            target="_blank"
+            class="link link-primary">+54 9 11 3314 7208</a
+          >
+        </p>
+      </div>
+      <div class="flex gap-5">
+        <Mail color="#fbc700" />
+        <p>
+          <strong>Email:</strong>
+          <a
+            href="mailto:mensajerialdi@gmail.com"
+            target="_blank"
+            class="link link-primary">mensajerialdi@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="flex gap-5">
+        <Map color="#fbc700" />
+        <p><strong>Ubicación:</strong> Haedo, Buenos Aires</p>
+      </div>
+    </div>
+    <div class="mt-8">
+      <a
+        href="https://wa.link/o3i0tb"
+        target="_blank"
+        class="btn btn-primary btn-wide">Enviar mensaje por WhatsApp</a
+      >
+    </div>
+  </div>
+</section>

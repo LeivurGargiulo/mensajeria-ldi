@@ -1,0 +1,44 @@
+---
+import {
+  Truck,
+  Mail,
+  Warehouse,
+  Package
+} from "@lucide/astro";
+---
+
+<section id="servicios" class="bg-base-200 py-16 px-4">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10">Nuestros Servicios</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card bg-base-100 shadow">
+        <div class="card-body items-center text-center">
+          <Truck color="#fbc700" />
+          <h3 class="card-title text-xl">Envíos en el día</h3>
+          <p>Entregas rápidas, el mismo día dentro de AMBA y CABA.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow">
+        <div class="card-body items-center text-center">
+          <Mail color="#fbc700" />
+          <h3 class="card-title text-xl">Mensajería corporativa</h3>
+          <p>Documentos y paquetes para empresas con seguimiento.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow">
+        <div class="card-body items-center text-center">
+          <Warehouse color="#fbc700" />
+          <h3 class="card-title text-xl">Logística para emprendedores</h3>
+          <p>Nos ocupamos de tus envíos mientras vos vendés.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow">
+        <div class="card-body items-center text-center">
+          <Package color="#fbc700" />
+          <h3 class="card-title text-xl">Entrega programada</h3>
+          <p>Coordiná día y hora exacta para tus entregas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,44 @@
+---
+import {
+  Clock,
+  Phone,
+  User,
+  Gem
+} from "@lucide/astro";
+---
+
+<section id="beneficios" class="bg-base-200 py-16 px-4">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10">¿Por qué elegirnos?</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body items-center text-center">
+          <Clock color="#fbc700" />
+          <h3 class="text-xl font-bold">Puntualidad</h3>
+          <p>Tu tiempo vale. Llegamos cuando decimos.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body items-center text-center">
+          <Phone color="#fbc700" />
+          <h3 class="text-xl font-bold">Seguimiento</h3>
+          <p>Te mantenemos al tanto por WhatsApp.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body items-center text-center">
+          <User color="#fbc700" />
+          <h3 class="text-xl font-bold">Atención directa</h3>
+          <p>Sin bots. Charlás con alguien real.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <div class="card-body items-center text-center">
+          <Gem color="#fbc700" />
+          <h3 class="text-xl font-bold">Buen precio</h3>
+          <p>Tarifas claras, sin vueltas ni sorpresas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
